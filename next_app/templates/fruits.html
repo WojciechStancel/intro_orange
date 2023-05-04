@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    <ul>
+    {% for item in fruits%}
+        {# {{forloop}} #}
+       <li>{{item}}</li>
+    {%endfor%}
+    </ul>
+</p>
+
+
+<!-- Wartość pod kluczem age ponizej, nawiasy kwadratowe w django nie działają, mamy kropki -->
+<p>{{person.age}}</p>
+
+<p>{{cow.name}}</p>
+
+
+</body>
+</html>
