@@ -27,9 +27,10 @@ urlpatterns = [
     path('hi/', views.hi),
     path('hi2/', views.hi2),
 
-    #przekazanie urlcongig lokalnego, zeby nie było tak wiele inportów bo trudno utrzymac
+    #przekazanie urlconfig lokalnego, zeby nie było tak wiele inportów bo trudno utrzymac
 
     path('next/', include('next_app.urls')),
+    path('links/', include('links.urls')),
 
 
 
