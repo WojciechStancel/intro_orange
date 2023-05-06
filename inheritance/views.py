@@ -8,3 +8,12 @@ def first_view(request):
         'inheritance/first_template.html'
 
     )
+
+
+def second_view(request):
+
+    return render(
+
+        request,
+        'inheritance/second_template.html'
+    )
