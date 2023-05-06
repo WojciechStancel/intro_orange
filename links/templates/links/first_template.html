@@ -5,8 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-
-<h1>To jest druga strona</h1>
+<h1>To jest pierwsza strona</h1>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis augue erat, suscipit et tincidunt ornare, congue eget tellus. Maecenas at mollis lectus. Etiam id mauris a lectus consequat pellentesque. Morbi metus mi, sollicitudin a ante eget, accumsan venenatis ipsum. Sed accumsan vitae purus at luctus. Nam ac ante libero. Curabitur id ante ullamcorper, lobortis urna ut, semper nunc. Sed vulputate, metus varius pellentesque lacinia, eros augue finibus massa, ut placerat orci sapien ut lacus. In tellus enim, convallis nec sem id, iaculis consectetur mauris. Donec pharetra ex libero, at viverra sem porta in. Sed at ex convallis ex consequat sollicitudin nec id nunc. Vestibulum sit amet finibus lectus, sed hendrerit mi. Duis quis velit elit. Integer sed est dui.
 
 Cras eget fermentum metus. Nunc ut ullamcorper nulla. Mauris condimentum maximus nulla sit amet cursus. Pellentesque turpis turpis, tincidunt ac eros sed, venenatis maximus turpis. Cras nisi ipsum, imperdiet at varius vitae, egestas in tortor. Morbi eget justo et ligula faucibus iaculis non ut tellus. Donec semper, justo non tincidunt finibus, lacus tortor euismod enim, id convallis augue nisi ut velit.
@@ -15,10 +14,10 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ligula turpi
 
 Vivamus commodo eget est non blandit. Fusce lacus elit, imperdiet et posuere non, posuere eu metus. Sed interdum viverra est a imperdiet. Maecenas tempor lectus justo, vitae elementum nisl interdum sed. Donec fermentum vel mi quis semper. Nulla eleifend ligula enim, vitae pharetra tellus posuere vitae. Suspendisse molestie aliquam massa, vestibulum molestie risus aliquam nec. Etiam pellentesque erat pellentesque urna placerat iaculis.
 
-Suspendisse sit amet mollis dolor.
+Suspendisse sit amet mollis dolor. Proin tincidunt tempus mauris id venenatis. In ac libero in mauris volutpat posuere id vel massa. Suspendisse tempus auctor neque non tincidunt. Donec vitae sapien ut felis volutpat sollicitudin. Sed elementum mattis tellus at efficitur. Ut efficitur tempus semper. Morbi dolor sem, cursus volutpat commodo et, dapibus id ex. Nam bibendum at sem in dapibus. Duis sapien tellus, aliquam sed quam eu, tincidunt efficitur leo. Aliquam ut dui commodo mi vulputate mollis laoreet sed justo.
 
-<!--<p>Przejdź do strony <a href="/links/first/">pierwszej</p>-->
-<p>Przejdź do strony <a href="{% url 'third_name' 'abc' %}">trzeciej</p>
 
+<!--<p>Przejdź do strony <a href="/links/second/">drugiej</p>-->
+<p>Przejdź do strony <a href="{% url 'links:second_name' %}">drugiej</p>
 </body>
 </html>

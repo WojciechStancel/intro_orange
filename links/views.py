@@ -5,20 +5,20 @@ from django.shortcuts import render
 def first_view(request):
     return render(
         request,
-        'first.html',
+        'links/first_template.html',
     )
 
 def second_view(request):
     return render(
         request,
-        'second.html',
+        'links/second.html',
     )
 
 
 def third_view(request, param):
     return render(
         request,
-        'third.html',
+        'links/third.html',
         context= {
         'param': param,
         }
