@@ -32,6 +32,7 @@ urlpatterns = [
     path('next/', include('next_app.urls')),
     path('links/', include('links.urls')),
     path('inheritance/', include('inheritance.urls')),
+    path('form/', include('form_app.urls')),
 
 
 
