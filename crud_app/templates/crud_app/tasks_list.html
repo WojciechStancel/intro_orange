@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista zadań</title>
+</head>
+<body>
+  <a href="{% url 'crud_app:task_create_view' %}"><button>Dodaj nowe zadanie</button></a>
+  <h2>Lista zadań:</h2>
+  <ul>
+    {% for task in tasks %}
+      <li style='padding: 0.2em;'>
+          <a href="{% url 'crud_app:task_detail_view' task.id %}">{{ task.name }}</a>
+          <a href="{% url 'crud_app:task_update_view' task.id %}"><button>Zmień</button></a>
+          <a href="{% url 'crud_app:task_delete_view' task.id %}"><button>Usuń</button></a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

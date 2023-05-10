@@ -48,6 +48,14 @@ INSTALLED_APPS = [
     'form_app2.apps.FormApp2Config',
     'form_app3.apps.FormApp3Config',
     'form_app4.apps.FormApp4Config',
+    'form_app5.apps.FormApp5Config',
+    'crud_app.apps.CrudAppConfig',
+    'relations_app.apps.RelationsAppConfig',
+
+
+    #third-part apps
+    'django_extensions',
+
 ]
 
 MIDDLEWARE = [
